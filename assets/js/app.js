@@ -6,7 +6,30 @@ const navbar = document.getElementById('navbar');
 
 btnActive.addEventListener('click', () => {
     menu.classList.toggle('hidden');
+
 });
+
+
+
+const a = document.getElementsByClassName('click')
+// console.log("🚀 --------")
+// console.log("🚀 : a", a.length)
+// console.log("🚀 --------")
+
+for (let i = 0; i < a.length; i++) {
+    let an = document.getElementsByClassName('click')[i]
+    // console.log("🚀 --------")
+    // console.log("🚀 : a", an)
+    // console.log("🚀 --------")
+    an.addEventListener('click', () => {
+            console.log("🚀 --------")
+            console.log("🚀 : a", an)
+            console.log("🚀 --------")
+            menu.classList.add('hidden');
+        })
+    
+}
+
 
 
 window.onscroll = function () { scrollFunction() };
@@ -20,7 +43,7 @@ function scrollFunction() {
         navbar.classList.add('shadow')
         btnActive.classList.remove('text-gray-100')
         btnActive.classList.add('text-gray-900')
-        
+
     } else {
         navbar.classList.add('bg-gray-900')
         navbar.classList.remove('bg-white')
@@ -28,7 +51,7 @@ function scrollFunction() {
         navbar.classList.remove('shadow')
         btnActive.classList.remove('text-gray-900')
         btnActive.classList.add('text-gray-100')
-    }   
+    }
 }
 
 // When the user clicks on the button, scroll to the top of the document
@@ -38,24 +61,26 @@ function topFunction() {
 }
 
 //slider
-        const slider1 = document.getElementById('slider1');
-        const slider2 = document.getElementById('slider2');
-        const left1 = document.getElementById('left1');
-        const right1 = document.getElementById('right1');
+const slider1 = document.getElementById('slider1');
+const slider2 = document.getElementById('slider2');
+const left1 = document.getElementById('left1');
+const right1 = document.getElementById('right1');
 
-        right1.addEventListener('click', () => {
-            console.log('click');
-            slider1.classList.add('hidden');
-            slider2.classList.remove('hidden');
-            // slider2.classList.add('tranform');
-            // slider2.classList.add('translate-x-full');
-        })
-        left1.addEventListener('click', () => {
-            console.log('click');
-            slider1.classList.remove('hidden');
-            slider2.classList.add('hidden');
-        });
+right1.addEventListener('click', () => {
+    console.log('click');
+    slider1.classList.add('hidden');
+    slider2.classList.remove('hidden');
+    // slider2.classList.add('tranform');
+    // slider2.classList.add('translate-x-full');
+})
+left1.addEventListener('click', () => {
+    console.log('click');
+    slider1.classList.remove('hidden');
+    slider2.classList.add('hidden');
+});
 
+
+// MODO DARK
 const btnSwitch = document.querySelectorAll('.switch')[0];
 const btnSwitch1 = document.querySelectorAll('.switch')[1];
 
@@ -69,3 +94,4 @@ btnSwitch1.addEventListener('click', () => {
 	document.body.classList.toggle('dark');
 	btnSwitch1.classList.toggle('active');
 });
+//END
