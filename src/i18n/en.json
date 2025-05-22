@@ -1,0 +1,66 @@
+{
+  "nav": {
+    "experience": "Experience",
+    "proyects": "Projects",
+    "skills": "Skills",
+    "servicios": "Services",
+    "contacto": "Contact"
+  },
+  "hero": {
+    "greeting": "Hey, there",
+    "introduction": "I'm",
+    "developer": "a Fullstack Developer",
+    "description": "Involved in the construction of web systems, generating value propositions and developing efficient and scalable projects.",
+    "stack": "Current favorite tech stack/tools:"
+  },
+  "experience": {
+    "title": "Work Experience",
+    "0": {
+      "title": "Fullstack Developer",
+      "description": "As a freelance developer, I was in charge of developing new modules and improving existing functionalities, applying good programming practices. I maintained constant communication with the team to propose effective and collaborative solutions. In addition, I managed and resolved technical issues, ensuring the continuity and stability of the system."
+    },
+    "1": {
+      "title": "Fullstack Developer",
+      "description": "I was in charge of developing modules for the company's BPM, working closely with different areas to identify needs, propose improvements and optimize internal processes. Applying good development practices, I contributed to make the operational flows more efficient and with less response time."
+    },
+    "2": {
+      "title": "Full Stack Developer",
+      "description": "I developed websites for international clients, mainly from Puerto Rico, adjusting to their specific requirements, demanding deadlines and high quality standards. I applied good programming and testing practices, proposing innovative solutions with new tools to improve performance and user experience."
+    },
+    "3": {
+      "title": "Programmer Analyst",
+      "description": "I was in charge of the maintenance and improvement of web systems, ensuring compliance with customer requirements through testing, bug fixes and documentation of new features. In addition, I provided technical support and training to end users, facilitating the use and efficient management of the developed platforms."
+    },
+    "4": {
+      "title": "Fullstack Developer",
+      "description": "I developed new modules for the internal management of the company, applying good programming practices and using the defined technologies. In addition, I reviewed and validated the changes made by other developers, ensuring compliance with project standards before going into production."
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "0": {
+      "title": "Landing Page Epixelab",
+      "description": "Landing page for a Digital Marketing company. It includes a testimonials section, newsletter and other projects."
+    },
+    "1": {
+      "title": "Landing Page Fylo",
+      "description": "Landing page for a cloud storage application. Includes a testimonials section, newsletter among others."
+    },
+    "2": {
+      "title": "Hispania Screening Solutions",
+      "description": "Website focused on supporting inclusive hiring processes, providing key information to make fair decisions and promote equal opportunities."
+    },
+    "3": {
+      "title": "Islandmed PR",
+      "description": "Web platform to manage medical cannabis licenses in Puerto Rico, with e-commerce features. I was in charge of the complete redesign of the frontend, improving the interface and user experience."
+    }
+  },
+  "skills": {
+    "title": "Skills & Tools"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Fullstack Developer",
+    "description": "Systems Engineer with more than 3 years of experience in web development and optimization. development and optimization of web systems. I have led projects and  existing solutions always aligned with business objectives I handle  such as JavaScript, ReactJS,  JS, NodeJS, MySQL, Git GitHub,among others,  focusing on  efficient and scalable efficient and  solutions."
+  }
+}

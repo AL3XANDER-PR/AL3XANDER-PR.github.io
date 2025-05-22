@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Onest:wght@100..900&display=swap");
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  /* @apply bg-white dark:bg-gray-900 text-gray-900 dark:text-white; */
+}
+
+/* * {
+  outline: 1px solid orangered;
+} */

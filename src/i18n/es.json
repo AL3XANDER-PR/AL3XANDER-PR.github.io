@@ -1,0 +1,68 @@
+{
+  "nav": {
+    "experience": "Experiencia",
+    "proyects": "Proyectos",
+    "skills": "Habilidades",
+    "servicios": "Servicios",
+    "contacto": "Contacto"
+  },
+  "hero": {
+    "greeting": "Hola",
+    "introduction": "Soy",
+    "developer": "Fullstack Developer",
+    "description": "Involucrado en la construcción de sistemas web, generando propuestas de valor y desarrollando proyectos eficientes y escalables.",
+    "stack": "Stack de Tecnologías Favorito/Herramientas:"
+  },
+  "experience": {
+    "title": "Experiencia Laboral",
+
+    "0": {
+      "title": "Desarrollador Fullstack",
+      "description": "Como desarrollador freelance, me encargué del desarrollo de nuevos módulos y la mejora de funcionalidades existentes, aplicando buenas prácticas de programación. Mantuve comunicación constante con el equipo para proponer soluciones efectivas y colaborativas. Además, gestioné y resolví incidencias técnicas, asegurando la continuidad y estabilidad del sistema"
+    },
+    "1": {
+      "title": "Desarrollador Fullstack",
+      "description": "Me encargué del desarrollo de módulos para el BPM de la empresa, trabajando en estrecha colaboración con distintas áreas para identificar necesidades, proponer mejoras y optimizar procesos internos. Aplicando buenas prácticas de desarrollo, contribuí a que los flujos operativos fueran más eficientes y con menor tiempo de respuesta"
+    },
+    "2": {
+      "title": "Desarrollador Full Stack",
+      "description": "Desarrollé sitios web para clientes internacionales, principalmente de Puerto Rico, ajustándose a sus requerimientos específicos, plazos exigentes y altos estándares de calidad. Apliqué buenas prácticas de programación y pruebas, proponiendo soluciones innovadoras con nuevas herramientas para mejorar el rendimiento y la experiencia del usuario."
+    },
+    "3": {
+      "title": "Analista Programador",
+      "description": "Me encargué del mantenimiento y mejora de sistemas web, asegurando el cumplimiento de los requerimientos del cliente mediante pruebas, corrección de errores y documentación de nuevas funcionalidades. Además, brindé soporte técnico y capacitaciones a los usuarios finales, facilitando el uso y la gestión eficiente de las plataformas desarrolladas."
+    },
+    "4": {
+      "title": "Desarrollador Fullstack",
+      "description": "Desarrollé nuevos módulos para la gestión interna de la empresa, aplicando buenas prácticas de programación y utilizando las tecnologías definidas. Además, revisaba y validaba los cambios realizados por otros desarrolladores, asegurando el cumplimiento de los estándares del proyecto antes de su paso a producción."
+    }
+  },
+  "projects": {
+    "title": "Proyectos",
+    "0": {
+      "title": "Landing Page Epixelab",
+      "description": "Landing page para una empresa de Marketing Digital. Incluye una sección de testimonios, newsletter entre otros."
+    },
+    "1": {
+      "title": "Landing Page Fylo",
+      "description": "Landing page para una aplicacion de almacenamiento en la nube. Incluye una sección de testimonios, newsletter entre otros."
+    },
+    "2": {
+      "title": "Hispania Screening Solutions",
+      "description": "Página web enfocada en apoyar procesos de contratación inclusivos, brindando información clave para tomar decisiones justas y promover la igualdad de oportunidades."
+    },
+    "3": {
+      "title": "Islandmed PR",
+      "description": "Plataforma web para gestionar licencias de cannabis medicinal en Puerto Rico, con funciones e-commerce. Me encargué del rediseño completo del frontend, mejorando la interfaz y la experiencia de usuario."
+    }
+  },
+  "skills": {
+    "title": "Habilidades y herramientas"
+  },
+  "about": {
+    "title": "Sobre Mi",
+    "subtitle": "Desarrollador Fullstack",
+
+    "description": "Ingeniero de Sistemas con más de 3 años de experiencia en el desarrollo y optimización de sistemas web. He liderado proyectos y mejorado soluciones existentes, siempre alineado con los objetivos del negocio. Manejo tecnologías como JavaScript, ReactJS, Vue JS, NodeJS, MySQL, Git, GitHub, entre otras, siempre enfocándome en entregar soluciones eficientes y escalables."
+  }
+}
